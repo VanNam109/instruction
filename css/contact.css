@@ -1,0 +1,119 @@
+.contact__carousel {
+    height: 300px;
+    background-image: url("../img/banner1.jpg");
+    background-position: center center;
+}
+.contact__section {
+    font-size: 17px;
+    letter-spacing: 4px;
+    font-weight: 500;
+    color: #000;
+    padding: 4rem 15px;
+}
+.contact__title h1 {
+    color: #ff4f81;
+    font-size: 45px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.contact__title span {
+    font-size: 17px;
+    letter-spacing: 4px;
+    color: #000;
+}
+.contact__info {
+    background-color: #0e0e0e;
+    padding: 2em;
+}
+.contact__info h4 {
+    font-size: 1.4em;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+.contact-info__detail{
+    margin-bottom: 30px;
+}
+
+.contact-info__detail .icon i{
+    color: #fff;
+    font-size: 18px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #ddd;
+    text-align: center;
+    line-height: 49px;
+    margin-right: 20px;
+}
+.contact-info__detail h4 {
+    font-size: 1em;
+    color: #ff4f81;
+}
+.contact-info__detail span {
+    font-size: 0.9em;
+    color: #cecaca;
+    line-height: 1.8em;
+}
+.contact__social i{
+    height: 32px;
+    width: 32px;
+    line-height: 32px;
+    padding-left: 5px;
+    background: #fff;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.contact-face{
+    color: #3b5998;
+}
+.contact-face:hover{
+    background-color: #3b5998;
+    color: #fff;
+}
+.contact-twitt{
+    color: #1da1f2
+}
+.contact-twitt:hover{
+    background-color: #1da1f2;
+    color: #fff;
+}
+.contact-rss{
+    color: #f26522;
+}
+.contact-rss:hover{
+    background-color: #f26522;
+    color: #fff;
+}
+.contact__content{
+    min-width: 300px;
+}
+.contact__info-img{
+    background-image: url('../img/g11.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact__form input ,.contact__form textarea{
+    padding: 14px;
+    border-radius: 0px;
+    background-color: #f5f5f5;
+}
+.btn--contact-submit{
+    background-color: #ec1985;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 0px;
+    margin-top: 25px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.btn--contact-submit:hover{
+    background-color: #ff4f81;
+}
+/* END */
+/* MAP */
+.map iframe{
+    width: 100%;
+    height: 400px;
+    padding: 2em;
+    background: #f5f5f5;
+}
